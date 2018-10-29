@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html>
+
+<head><!-- StartFormCustomCSS --><style type="text/css" media="screen"> /* RESET */.elq-form * {  margin: 0;  padding: 0;}.elq-form input,textarea {	-webkit-box-sizing:content-box;	-moz-box-sizing:content-box;	box-sizing:content-box;}.elq-form input[type=text],.elq-form textarea,.elq-form select[multiple=multiple] {	border: 1px solid #A6A6A6;} .elq-form button,input[type=reset],input[type=button],input[type=submit],input[type=checkbox],input[type=radio],select {	-webkit-box-sizing:border-box;	-moz-box-sizing:border-box;	box-sizing:border-box;}/* GENERIC */.elq-form input {	height: 16px;	line-height: 16px;}.elq-form .item-padding {	padding:6px 5px 9px 9px;}.elq-form .pp-group {	padding:0px 5px 0px 9px;}.elq-form .pp-field {	padding:6px 0px 9px 0px;}.elq-form .field-wrapper.individual {    float: left;    width: 100%;	clear: both;}.elq-form .field-p {	position: relative;	margin: 0;	padding: 0;}.elq-form .zIndex-fix {	position: absolute;	z-index: 1;	top: 0;	left: 0;	right: 0;	bottom: 0;}.elq-form .field-design {	position:absolute;	z-index:2;	top:0;	left:0;	right:0;	bottom:0;	margin:0;	padding:0;}.elq-form .no-fields-prompt {	float: left;	width: 100%;	height: 150px;	padding-top: 50px;	clear: both;}/* SECTION BREAKS */.elq-form .section-break {	float:left;	width: 97%;	margin-right:2%;	margin-left:1%;	padding-bottom:6px;}.elq-form .section-break .heading {	width:100%;	font-weight: bold;	margin:0;	padding:0;}/* LABEL */.elq-form .required {	color: red !important;	display: inline;	float: none;	font-weight: bold;	margin: 0pt 0pt 0pt;	padding: 0pt 0pt 0pt;}/* FIELD GROUP */.elq-form .field-group {	float: left;	clear: both;}.elq-form .field-group.large {	width:100%;}.elq-form .field-group.medium {	width:51%;}.elq-form .field-group.small {	width:31%;}.elq-form .field-group .label {	float:left;	width:97%;	margin-right:2%;	margin-left:1%;	padding-bottom:6px;	font-weight: bold;}.elq-form .field-group .field-style {	float: left;}.elq-form .progressive-profile .pp-inner {	float: left;	clear: both;}.elq-form .progressive-profile .pp-inner.large {	width:100%;}.elq-form .progressive-profile .pp-inner.medium {	width:51%;}.elq-form .progressive-profile .pp-inner.small {	width:31%;}/* RADIO */.elq-form .radio-option {	display: inline-block;}.elq-form .radio-option .label {	display:block;	float:left;	padding-right:10px;	padding-left:22px;	text-indent:-22px;}.elq-form .radio-option .input {	vertical-align:middle;	margin-right:7px;}.elq-form .radio-option .inner {	vertical-align:middle;}/* CHECKBOX */.elq-form .checkbox-span {	display:inline-block;}.elq-form .checkbox-label {	margin-left:4px;}/* INPUT */.elq-form .accept-default {	width:100%;}/* SIZING */.elq-form .field-style {	margin-right:2%;	margin-left:2%;}.elq-form .field-style._25 {	width:21%;}.elq-form .field-style._50 {	width:46%;}.elq-form .field-style._50_left {	clear:left;	width:46%;}.elq-form .field-style._75 {	width:71%;}.elq-form .field-style._100 {	width:96%;}.elq-form .field-size-top-small {	width:30%;}.elq-form .field-size-top-medium {	width:75%;}.elq-form .field-size-top-large {	width:100%;}.elq-form .field-size-left-small {	width:21%;}.elq-form .field-size-left-medium {	width:46%;}.elq-form .field-size-left-large {	width:60%;}/* INSTRUCTIONS */.elq-form .instructions.default {	color:#444444;	display:block;	font-size:10px;	padding:6px 0pt 3px;}.elq-form .instructions.group {	float:left;	width:97%;	margin-right:2%;	margin-left:2%;	padding:6px 0pt 3px;	color:#444444;	display:block;	font-size:10px;}.elq-form .instructions.left-single {	margin:0 0 0 33%;}.elq-form .instructions-other {   margin:0;}/* POSITIONING */.elq-form .label-position.left {	display:block;    line-height:150%;    padding:1px 0pt 3px;    float:left;    width:31%;    margin:0pt 15px 0pt 0pt;    word-wrap:break-word;    overflow-wrap: break-word;}.elq-form .label-position.top {	display:block;    line-height:150%;    padding:1px 0pt 3px;    white-space:normal;}.elq-form .label-position.alignment-left {	text-align: left;}.elq-form .label-position.alignment-right {	text-align: right;}/* LIST ORDER */.elq-form .list-order {	display:block;}.elq-form .list-order.oneColumn {	margin:0pt 7px 0pt 0pt;	width:100%;	clear:both;}.elq-form .list-order.twoColumn {	float:left;	margin:0pt 7px 0pt 0pt;	width:38%;}.elq-form .list-order.threeColumn {	float:left;	margin:0pt 7px 0pt 0pt;	width:30%;}.elq-form .list-order.oneColumnLeft {	float:left;	margin:0pt 7px 0pt 0pt;	width:100%;}.elq-form .list-order.twoColumnLeft {	float:left;	margin:0pt 7px 0pt 0pt;	width:38%;}.elq-form .list-order.threeColumnLeft {	float:left;	margin:0pt 7px 0pt 0pt;	width:30%;}/* GRID STYLE */.elq-form .grid-style {      display:inline;      float:left;      margin-left:2%;      margin-right:2%;}.elq-form .grid-style._25 {      width:21%;}.elq-form .grid-style._50 {      width:46%;}.elq-form .grid-style._75 {      width:71%;}.elq-form .grid-style._100 {      width:96%;  }</style><!-- EndFormCustomCSS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="http://img06.en25.com/Web/CignaGHBIntl/{4faee07d-2319-4d96-a48c-b19ca060826d}_newregistrationn.css">
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+  <meta name="description" content="Globalcare Flexible">
+  <style>
+    .item-padding {
+      font-size: .875rem;
+      padding-bottom: 5%;
+    }
+
+    .nopadding {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .bottom-footer-nav-link {
+      background-image: none;
+      display: inline-block;
+      padding: 0 0 0.25rem 0;
+      font-size: .875rem;
+    }
+
+    .bottom-footer-nav-link:hover {
+      color: #004986;
+    }
+
+    .bottom-footer-nav-link:focus {
+      background-color: transparent;
+    }
+
+    .bottom-footer-nav-link:active {
+      color: #ebebeb;
+    }
+
+    .bottom-footer .bottom-footer-nav-link:visited {
+      color: #fff;
+    }
+
+    .bottom-footer-nav-item {
+      padding-right: 10px;
+    }
+
+    .mainWidth {
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      margin-right: 0;
+      margin-left: 0;
+      width: 100%;
+    }
+
+    .mainWidthLeft {
+      padding-left: 15%;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      margin-left: 0;
+    }
+
+    .mainWidthRight {
+      padding-right: 15%;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      margin-right: 0;
+    }
+
+    @media only screen and (max-width: 990px) {
+      .mainWidth {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .mainWidthLeft {
+        padding-left: 5%;
+      }
+      .mainWidthRight {
+        padding-right: 5%;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+
+      .mainWidthLeft {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .mainWidthRight {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
+
+    .class-white {
+      color: #ffffff;
+    }
+
+    .class-green {
+      color: #007a3e;
+    }
+
+    .class-orange {
+      color: #f68621 !important;
+      padding-bottom: 1rem !important;
+    }
+
+    .class-dark-orange {
+      background-color: #e35205;
+    }
+
+    .class-dark-orange-color {
+      color: #e35205;
+    }
+
+    .class-blue {
+      color: #00a9e0;
+    }
+
+    .class-dark-blue {
+      background-color: #004986;
+    }
+
+
+    .class-blue-bg {
+      background-color: #00a9e0 !important;
+    }
+
+    .class-red {
+      color: #c00
+    }
+
+
+    .select-box {
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      border-radius: 0;
+      margin-top: 0.5rem;
+      padding-left: 10px;
+    }
+
+    .class-lightgreen {
+      background-color: rgba(57, 181, 74, 0.75);
+    }
+
+    .class-lightgreen-mobile {
+      background-color: #39b54a;
+    }
+
+    .class-gray {
+      color: #d9d9d9;
+      font-size: .875rem;
+    }
+
+    .class-footer {
+      font-size: .875rem;
+    }
+
+    .class-gray-bg {
+      background-color: #d9d9d9;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .basic-input {
+      color: #ffffff !important;
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-color: #ffffff !important;
+      border-radius: 0;
+      margin-top: 0.5rem;
+      padding-left: 10px;
+    }
+
+    ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #ffffff !important;
+      opacity: 1 !important;
+      /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #ffffff !important;
+    }
+
+    ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #ffffff !important;
+    }
+
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #ffffff !important;
+    }
+
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #ffffff !important;
+    }
+
+    :-moz-placeholder {
+      /* Firefox 18- */
+      color: #ffffff !important;
+    }
+
+    .my-form-row {
+      padding: 5% 10%;
+    }
+
+    .my-button {
+      border: 1px solid;
+      background-color: rgba(0, 0, 0, 0) !important;
+      height: calc(2.25rem + 2px);
+    }
+
+    .my-button-focus {
+      border: 1px solid;
+      background-color: #ffffff;
+      color: #1eb1d7;
+      border-color: #ffffff;
+      height: calc(2.25rem + 2px);
+
+    }
+
+    .errorClass {
+      border: 2px solid #c00 !important;
+    }
+
+    .class-error-text {
+      font-size: 0.87rem;
+    }
+
+    .justify-content-space-around {
+      justify-content: space-around !important;
+    }
+
+    #callback:hover {
+      color: #ffffff !important;
+    }
+
+    #downloadbrochure:hover {
+      color: #ffffff !important;
+    }
+
+    .caption-extra {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      padding: 0 1rem;
+    }
+
+    .title-space {
+      margin: 1rem 0;
+    }
+
+    .title-space2 {
+      margin: 1rem 0 2rem 0;
+    }
+
+    .chekboxcontainer label.btn-default.active {
+      text-align: left;
+      white-space: normal;
+    }
+
+    .chekboxcontainer label.btn-default {
+      width: 90%;
+      border: 1px solid #efefef;
+    }
+
+    .chekboxcontainer label .bizcontent {
+      width: 100%;
+    }
+
+
+    .chekboxcontainer .btn span.glyphicon {
+      opacity: 0;
+    }
+
+    .searchable-container .btn.active span.glyphicon {
+      opacity: 1;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <script>
+    function myresize() {
+
+      if ($(window).width() > 1200) {
+        $("#callback").attr("href", "#dcallback");
+        $("#my-content").removeClass("hidden");
+        $("#my-content2").removeClass("hidden");
+        $("#my-content-float").removeClass("hidden");
+        $("#my-mobile").addClass("hidden");
+        $("#togetherAllTheWay").removeClass("hidden");
+        $("#mobileLink").removeAttr("href");
+
+
+      } else {
+        $("#callback").attr("href", "#mcallback");
+        $("#my-content-float").addClass("hidden");
+        $("#my-content").addClass("hidden");
+        $("#my-content2").addClass("hidden");
+        $("#my-mobile").removeClass("hidden");
+        $("#togetherAllTheWay").addClass("hidden");
+        $("#mobileLink").attr("href", "tel:04-362 0679");
+
+
+      }
+
+      if ($(window).width() > 768) {
+        $('#getInTouch').css("text-align", "right");
+        $('#getInTouch').css("justify-content", "flex-end");
+        $('#links').removeClass("justify-content-center");
+
+      } else {
+        $('#getInTouch').css("text-align", "center");
+        $('#getInTouch').css("justify-content", "center");
+        $('#links').addClass("justify-content-center");
+
+
+      }
+
+    }
+    $(window).resize(function() {
+
+      myresize();
+    });
+    $("document").ready(function() {
+      if (!String.prototype.startsWith) {
+        String.prototype.startsWith = function(searchString, position) {
+          position = position || 0;
+          return this.indexOf(searchString, position) === position;
+        };
+      }
+      myresize();
+      usaCanadaClick("usa", 0);
+      usaCanadaClick("usa", 1);
+
+      var readOnlyLength = 5;
+
+
+    });
+
+    $(function() {
+      $("#datepicker").datepicker({
+        format: 'mm/dd/yyyy'
+      });
+      $("#datepickerm").datepicker({
+        format: 'mm/dd/yyyy'
+      });
+
+    });
+    var oldNumberLength = -1;
+
+    function PhoneFix(input) {
+
+      var phone = ($("#" + input).val()) + "";
+      var extension = false;
+      if (phone.startsWith("+1-")) {
+        phone = phone.substring(2, 20);
+        extension = true;
+      }
+
+      var onlyNumbers = "";
+      for (var i = 0; i < phone.length; i++) {
+        if (phone[i] >= '0' && phone[i] <= '9') {
+          onlyNumbers = onlyNumbers + phone[i];
+        }
+      }
+      if (oldNumberLength == onlyNumbers.length) {
+        return;
+      }
+      var newPhone = "";
+      if (onlyNumbers.length < 3) {
+        newPhone = onlyNumbers.substring(0, onlyNumbers.length);
+      } else if (onlyNumbers.length < 6) {
+        newPhone = onlyNumbers.substring(0, 3) + "-" + onlyNumbers.substring(3, onlyNumbers.length);
+      } else {
+        newPhone = onlyNumbers.substring(0, 3) + "-" + onlyNumbers.substring(3, 6) + "-" + onlyNumbers.substring(6, onlyNumbers.length);
+      }
+      if (newPhone.length > 12) {
+        newPhone = newPhone.substring(0, 12);
+      }
+
+      $("#" + input).val("+1-" + newPhone);
+
+      oldNumberLength = onlyNumbers.length;
+
+    }
+
+    function mobileClick(mobile) {
+      var name = "mobile";
+      if (mobile == '1') {
+        name = "mmobile";
+      }
+      if ($('#' + name).val() == "") {
+        $('#' + name).val("+1-");
+      }
+
+    }
+
+    function validateEmail(email) {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+    }
+
+    function validatePhone(phone) {
+
+      var re = /^(\+1-)?\d{3}-\d{3}-\d{4}$/im;
+      phone = phone.replace("(", "");
+      phone = phone.replace(")", "");
+      phone = phone.replace(" ", "");
+      return re.test(phone);
+    }
+
+
+    function validateForm(mobile, input) {
+      var myArray;
+      var globalError = false;
+      var m = '';
+      if (mobile == '1') {
+        m = 'm';
+      }
+      if (input == "ALL") {
+        myArray = [m + "name", m + "lname", m + "cname", m + "mobile", m + "email", m + "company-based"];
+      } else {
+        myArray = [input]
+      }
+      if (input == "company-based" || input == "mcompany-based") {
+
+        if ($("#" + m + "company-based").val() == 'Canada') {
+          $("#" + m + "company-based-h").removeClass('hidden');
+
+        } else {
+          $("#" + m + "company-based-h").addClass('hidden');
+        }
+      }
+      for (i in myArray) {
+        var errorFound = false;
+
+        $("#" + myArray[i]).removeClass('errorClass');
+        $("#" + myArray[i] + "E").addClass('hidden');
+        $("#" + myArray[i] + "EF").addClass('hidden');
+        var f = '';
+        if ($("#" + myArray[i]).val() == '') {
+          errorFound = true;
+        } else {
+          if (myArray[i] == m + "email") {
+            if (!validateEmail($("#" + myArray[i]).val())) {
+              f = "F";
+              errorFound = true;
+            }
+          }
+          if (myArray[i] == (m + "mobile")) {
+            if (!validatePhone($("#" + myArray[i]).val())) {
+              f = "F";
+              errorFound = true;
+            }
+          }
+
+        }
+        if (errorFound) {
+          globalError = true;
+          $("#" + myArray[i]).addClass('errorClass');
+          $("#" + myArray[i] + "E" + f).removeClass('hidden');
+        }
+        $("#" + myArray[i]).val();
+        //console.log(myArray[i] + ":" + $("#" + myArray[i]).val());
+      }
+      if (globalError) {
+        return false;
+      }
+      return true;
+    }
+
+    function usaCanadaClick(clicked, mobile) {
+      var m = "";
+      if (mobile == 1) {
+        m = "m";
+      }
+      if (clicked == "usa") {
+        $("#" + m + "company-based").val('USA');
+
+        $("#" + m + "usa").addClass("my-button-focus");
+        $("#" + m + "usa").removeClass("my-button");
+        $("#" + m + "canada").removeClass("my-button-focus");
+        $("#" + m + "canada").addClass("my-button");
+        $("#" + m + "company-based-h").addClass('hidden');
+
+      } else if (clicked == "canada") {
+        $("#" + m + "company-based").val('Canada');
+        $("#" + m + "canada").addClass("my-button-focus");
+        $("#" + m + "canada").removeClass("my-button");
+        $("#" + m + "usa").removeClass("my-button-focus");
+        $("#" + m + "usa").addClass("my-button");
+        $("#" + m + "company-based-h").removeClass('hidden');
+
+      }
+
+
+    }
+  </script>
+  <div style=" padding-top: 0;padding-bottom: 0;" class="mainWidth">
+
+    <!--begin sixcol -->
+    <div class="row nopadding" id="headerMarginTop">
+      <div class="col-6">
+        <a href="https://www.cigna-me.com/en/sme-entrepreneurs/overview?elqTrackId=c91011fcda894734a28dc524d8a86734" target="_blank"><img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/{47831d20-eac8-4347-b5c0-2d6e58262e01}_912568-cigna-logo.png" alt="Cigna" width="122" height="77"></a>
+      </div>
+      <div class="col-6" id="togetherAllTheWay">
+        <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/{be0771fd-a32f-45d3-af2f-6ef934defba7}_912568-cigna-tagline.png" alt="Together, all the way." class="" width="173" height="77" style="position:absolute;left:auto;right:0">
+
+      </div>
+    </div>
+
+
+  </div>
+  <div class="hero-wrapper" style="overflow: visible;">
+    <div style="height:fit-content">
+
+      <div id="my-content-float" style="position:absolute;top:0;left:0;z-index: 1;" class="mainWidth row">
+        <div class="col-7">
+        </div>
+        <div class=" col-5">
+          <a name="dcallback"></a>
+          <form method="post" name="JN0046-form" action="https://s115328572.t.eloqua.com/e/f2" id="form28" onsubmit="return validateForm('0','ALL');">
+            <input value="JN0046-form" type="hidden" name="elqFormName">
+            <input value="115328572" type="hidden" name="elqSiteId">
+            <input name="elqCampaignId" type="hidden">
+            <div class="row my-form-row class-blue-bg">
+
+              <h5 class="" style="margin-bottom:0;">
+              <b class="class-white">
+                Enter your information below
+              </b>
+            </h5>
+
+              <div style="padding-right:0px;padding-left:0px" class="col-sm-12 col-xs-12 col-md-6">
+                <div class="row nopadding" style="width:100%">
+                  <input name="firstName" onchange="validateForm('0','name');" placeholder="First Name*" id='name' class="form-control basic-input col-12" type="text">
+                  <div id="nameE" class="col-12 nopadding class-red class-error-text hidden">
+                    First Name is required
+                  </div>
+                </div>
+              </div>
+              <div style="padding-right:0px;padding-left:5px" class="col-sm-12 col-xs-12 col-md-6">
+                <div class="row nopadding" style="width:100%">
+                  <input name="lastName" onchange="validateForm('0','lname');" placeholder="Last Name*" id='lname' class="form-control basic-input" type="text">
+                  <div id="lnameE" class="col-12 nopadding class-red class-error-text hidden">
+                    Last Name is required
+                  </div>
+                </div>
+              </div>
+              <input name="emailAddress" onchange="validateForm('0','email');" placeholder="Email Address*" id='email' class="col-12 form-control basic-input" type="text">
+              <div id="emailE" class="col-12 nopadding class-red class-error-text hidden">
+                Email is required
+              </div>
+              <div id="emailEF" class="col-12 nopadding class-red class-error-text hidden">
+                The value should be a valid email address
+              </div>
+
+              <input name="mobilePhone" onfocus="mobileClick('0')" onkeyup="PhoneFix('mobile')" onchange="validateForm('0','mobile');" placeholder="Phone*" id='mobile' class="col-12 form-control basic-input" type="text">
+              <div id="mobileE" class="col-12 nopadding class-red class-error-text hidden">
+                Phone is required
+              </div>
+              <div id="mobileEF" class="col-12 nopadding class-red class-error-text hidden">
+                The value should be a valid mobile number
+              </div>
+
+              <div class="row col-12 nopadding hidden">
+                <select name="TimeCall" class="form-control class-blue-bg select-box">
+                <option value="">Preferred time of calling </option>
+                <option value="This week">
+                  This week
+                </option>
+                <option value="In a month">
+                  In a month
+                </option>
+                <option value="In 6 months">
+                  In 6 months
+                </option>
+                </select>
+              </div>
+
+              <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+                <div class="chekboxcontainer row nopadding" style="width:100%">
+                  <div class="col-12 nopadding">
+                    Preferred contact method
+                  </div>
+                  <div class="nopadding row" style="width:100%">
+                    <div class="col-6 nopadding" style="padding-right: 0.5rem!important;">
+                      <label class="btn btn-default active col-12" style="margin-bottom:0!important">
+                  <input type="checkbox" name="contact" autocomplete="off" value="Email">
+                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                  Email
+                </label>
+                    </div>
+                    <div class="col-6 nopadding" style="padding-left: 0.5rem!important;">
+                      <label class="btn btn-default active col-12" style="margin-bottom:0!important">
+                  <input type="checkbox" name="contact" autocomplete="off" value="Phone">
+                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                    Phone
+                  </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="padding-right:0px;padding-left:0px" class="hidden basic-input col-sm-12 col-xs-12 col-md-12">
+                <div class="chekboxcontainer row nopadding" style="width:100%">
+                  <div class="col-12 nopadding">
+                    I'm interested in the following solutions
+                  </div>
+                  <div class="nopadding row col-12">
+                    <label class="btn btn-default active col-12">
+                  <input type="checkbox" name="checkboxes" autocomplete="off" value="Global Health Benefits">
+                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                  Global Health Benefits
+                </label>
+
+                    <label class="btn btn-default active col-12">
+                  <input type="checkbox" name="checkboxes" autocomplete="off" value="Global Business Traveler">
+                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                  Global Business Traveler
+                </label>
+
+                    <label class="btn btn-default active col-12">
+                  <input type="checkbox" name="checkboxes" autocomplete="off" value="">
+                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                  None
+                </label>
+                  </div>
+                </div>
+              </div>
+
+
+              <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+                <label class="nopadding col-12" style="border:0;margin: 0;">When to contact</label>
+                <input id="datepicker" onkeydown="return false" name="date" class="form-control basic-input col-12" style="margin: 0;" type="text">
+              </div>
+
+              <label style="width:100%;padding-top:0.5rem;margin-bottom:0"><b class="class-white">Where is your company based? *</b></label>
+              <div class="row col-12 nopadding basic-input">
+                <button id="usa" onclick="usaCanadaClick('usa',0);return false;" class="col-6 class-white my-button">USA</button>
+                <button id="canada" onclick="usaCanadaClick('canada',0);return false;" class="col-6 class-white my-button-focus">Canada</button>
+              </div>
+
+
+              <select id="company-based" name="company-based" onchange="validateForm('0','company-based');" class="form-control class-blue-bg select-box hidden">
+                <option value="USA">
+                  USA
+                </option>
+                <option value="Canada">
+                  Canada
+                </option>
+              </select>
+
+              <div id="company-basedE" class="col-12 nopadding class-red class-error-text hidden">
+                Please make a selection
+              </div>
+
+              <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+                <div class="nopadding row" style="width:100%">
+                  <label class="btn btn-default active col-12 nopadding" style="text-align: left;white-space: normal;">
+                  <input type="checkbox" name="singleCheckbox" autocomplete="off" value="on">
+                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                  I'm interested in receiving updates from Cigna Global Health Benefits
+                </label>
+                </div>
+              </div>
+              <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+                <a id="company-based-h" class="hidden" href="http://communications.cigna.com/CASL-Opt-In-CGHB?src=dm&amp;elqTrackId=3ac7408d76c34a3b92905d2b5747b8b5" style="color:#0000F0" target="_blank">
+                  Consent to receive email for Canadian email subscribers
+                </a>
+                <div class="item-padding">
+                  <i>
+                   By providing my number, I consent to receive calls/texts from Cigna and its affiliates at the number provided that may deliver autodialed or prerecorded telemarketing messages.  My consent is not required to purchase products or services.
+                 </i>
+                </div>
+              </div>
+
+              <input id="field10" name="source" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Source1' />" class="field-size-top-large">
+              <input id="field11" name="medium" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Medium1' />" class="field-size-top-large">
+              <input id="field12" name="campaign" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Campaign1' />" class="field-size-top-large">
+              <input id="field13" name="content" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Content1' />" class="field-size-top-large">
+              <input id="field14" name="term" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Term1' />" class="field-size-top-large">
+
+              <div class="row col-12 nopadding basic-input" style="padding-bottom:0.5rem !important">
+                <button style="border-radius: 0;" class="col-12 btn btn-primary class-dark-blue">SUBMIT</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="card" style="border:0">
+        <picture style="overflow:hidden;display: block;margin:0;border:0;border-radius:0" class="imagecenter card">
+          <div style="-webkit-transform: scaleX(-1);transform: scaleX(-1)">
+            <img style="margin:0 !important;width:100%" alt="Hero Img" src="https://img04.en25.com/EloquaImages/clients/CignaGHB/%7B9084bc38-df6f-4ced-948f-2d10e64c825e%7D_header-image.jpg" class="hero-image img-fluid">
+          </div>
+
+        </picture>
+
+        <div id="my-content" class="hidden">
+          <div class="mainWidth card-img-overlay class-lightgreen" style="width:100%;height: fit-content;bottom: 0;top: auto;">
+            <div style="padding-top:0;padding-bottom:0">
+              <div class="col-7 nopadding" style="padding-right: 1rem !important;">
+                <h4 class="class-white">INVEST IN THE RIGHT GLOBAL BENEFITS SOLUTION</h4>
+                <h5 class="class-white">Global health benefits from Cigna</h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="card-img-overlay mainWidth row" style="padding-top:0 !important">
+            <div class="col-7">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div id="my-content2" class="mainWidth">
+        <p class=" col-md-7 col-sm-12" style="padding-left:0">
+          Your employees are your most valuable asset. Attracting and retaining quality globally mobile talent is a balancing act, involving choices which support deriving the best value for your company and the individual needs of your employee. Cigna Global Health
+          Benefits can help you accomplish both.
+        </p>
+        <p class="col-md-7 col-sm-12" style="padding-left:0">
+          With more than 50 years of experience providing benefit solutions for global employers; Cigna’s expertise, resources and compliant solutions will help keep your employees well as they work around the world.
+        </p>
+        <div class="col-md-7 col-sm-12 row" style="padding-bottom:1rem">
+
+          <h4 class="class-orange nopadding col-12">
+        <nobr>
+          Want answers on the following?
+        </nobr>
+        </h4>
+          <div class="caption col-12">
+            <p>
+              <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/%7B66538e21-0540-4d44-b756-2037187232b2%7D_orange-bullet.png"> How to review your existing Global Benefits plan
+            </p>
+            <p>
+              <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/%7B66538e21-0540-4d44-b756-2037187232b2%7D_orange-bullet.png"> How to keep your employees safe while travelling globally for business
+            </p>
+            <p>
+              <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/%7B66538e21-0540-4d44-b756-2037187232b2%7D_orange-bullet.png"> How your peers are using their global benefits
+            </p>
+          </div>
+          <a href="#dcallback">Get in touch and let’s discuss how Cigna can help.</a>
+        </div>
+      </div>
+    </div>
+    <div class="class-footer">
+      <div id="my-mobile" style="width:100%;height:fit-content">
+        <div class="mainWidth class-lightgreen-mobile">
+          <h4 class="class-white">
+          INVEST IN THE RIGHT GLOBAL BENEFITS SOLUTION
+        </h4>
+          <h5 class="class-white">
+          Global health benefits from Cigna
+        </h5>
+
+        </div>
+        <a name="mcallback"></a>
+        <form method="post" name="JN0046-form" action="https://s115328572.t.eloqua.com/e/f2" id="form28" onsubmit="return validateForm('1','ALL');">
+          <input value="JN0046-form" type="hidden" name="elqFormName">
+          <input value="115328572" type="hidden" name="elqSiteId">
+          <input name="elqCampaignId" type="hidden">
+          <div class="row mainWidth class-blue-bg">
+
+            <h5 class="" style="margin-bottom:0;"><b class="class-white">Enter your information below </b></h5>
+
+            <div style="padding-right:0px;padding-left:0px" class="col-12">
+              <div class="row nopadding" style="width:100%">
+                <input name="firstName" onchange="validateForm('1','mname');" placeholder="First Name*" id='mname' class="form-control basic-input col-12" type="text">
+                <div id="mnameE" class="col-12 nopadding class-red class-error-text hidden">
+                  First Name is required
+                </div>
+              </div>
+            </div>
+            <div style="padding-right:0px;padding-left:0px" class="col-12">
+              <div class="row nopadding" style="width:100%">
+                <input name="lastName" onchange="validateForm('1','mlname');" placeholder="Last Name*" id='mlname' class="form-control basic-input" type="text">
+                <div id="mlnameE" class="col-12 nopadding class-red class-error-text hidden">
+                  Last Name is required
+                </div>
+              </div>
+            </div>
+            <input name="emailAddress" onchange="validateForm('1','memail');" placeholder="Email Address*" id='memail' class="col-12 form-control basic-input" type="text">
+            <div id="memailE" class="col-12 nopadding class-red class-error-text hidden">
+              Email is required
+            </div>
+            <div id="memailEF" class="col-12 nopadding class-red class-error-text hidden">
+              The value should be a valid email address
+            </div>
+
+            <input name="mobilePhone" onkeyup="PhoneFix('mmobile')" onfocus="mobileClick('1')" onchange="validateForm('1','mmobile');" placeholder="Phone*" id='mmobile' class="col-12 form-control basic-input" type="text">
+            <div id="mmobileE" class="col-12 nopadding class-red class-error-text hidden">
+              Phone is required
+            </div>
+            <div id="mmobileEF" class="col-12 nopadding class-red class-error-text hidden">
+              The value should be a valid mobile number
+            </div>
+
+            <div class="row col-12 nopadding hidden">
+              <select name="TimeCall" class="form-control class-blue-bg select-box">
+              <option value="">Preferred time of calling </option>
+              <option value="This week">
+                This week
+              </option>
+              <option value="In a month">
+                In a month
+              </option>
+              <option value="In 6 months">
+                In 6 months
+              </option>
+              </select>
+            </div>
+
+            <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+              <div class="chekboxcontainer row nopadding" style="width:100%">
+                <div class="col-12 nopadding" style="margin-bottom: 0.5rem!important;">
+                  Preferred contact method
+                </div>
+                <div class="nopadding row" style="width:100%">
+                  <label class="btn btn-default active col-12">
+                <input type="checkbox" name="contact" autocomplete="off" value="Email">
+                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                Email
+              </label>
+
+                  <label class="btn btn-default active col-12" style="margin-bottom:0!important">
+                <input type="checkbox" name="contact" autocomplete="off" value="Phone">
+                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                  Phone
+                </label>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-right:0px;padding-left:0px" class="hidden basic-input col-sm-12 col-xs-12 col-md-12">
+              <div class="chekboxcontainer row nopadding" style="width:100%">
+                <div class="col-12 nopadding">
+                  I'm interested in the following solutions
+                </div>
+                <div class="nopadding row col-12">
+                  <label class="btn btn-default active col-12">
+                <input type="checkbox" name="checkboxes" autocomplete="off" value="Global Health Benefits">
+                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                Global Health Benefits
+              </label>
+
+                  <label class="btn btn-default active col-12">
+                <input type="checkbox" name="checkboxes" autocomplete="off" value="Global Business Traveler">
+                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                Global Business Traveler
+              </label>
+
+                  <label class="btn btn-default active col-12">
+                <input type="checkbox" name="checkboxes" autocomplete="off" value="">
+                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                None
+              </label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 basic-input" style="width:100%;padding-left:0">
+              When to contact
+            </div>
+            <div class="row nopadding col-12" style="width:100%">
+              <input id="datepickerm" onkeydown="return false" name="date" class="form-control basic-input col-12" type="text">
+            </div>
+
+            <label style="width:100%;padding-top:0.5rem;margin-bottom:0"><b class="class-white">Where is your company based? *</b></label>
+            <div class="row col-12 nopadding basic-input">
+              <button id="musa" onclick="usaCanadaClick('usa',1);return false;" class="col-6 class-white my-button">USA</button>
+              <button id="mcanada" onclick="usaCanadaClick('canada',1);return false;" class="col-6 class-white my-button-focus">Canada</button>
+            </div>
+            <select id="mcompany-based" name="company-based" onchange="validateForm('1','mcompany-based');" class="form-control class-blue-bg select-box hidden">
+              <option value="USA">
+                USA
+              </option>
+              <option value="Canada">
+                Canada
+              </option>
+            </select>
+            <div id="mcompany-basedE" class="col-12 nopadding class-red class-error-text hidden">
+              Please make a selection
+            </div>
+            <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+              <div class="nopadding row" style="width:100%">
+                <label class="btn btn-default active col-12 nopadding" style="text-align: left;white-space: normal;">
+                <input type="checkbox" name="singleCheckbox" autocomplete="off" value="on">
+                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                I'm interested in receiving updates from Cigna Global Health Benefits
+              </label>
+              </div>
+            </div>
+            <div style="padding-right:0px;padding-left:0px" class="basic-input col-sm-12 col-xs-12 col-md-12">
+              <a id="mcompany-based-h" class="hidden" href="http://communications.cigna.com/CASL-Opt-In-CGHB?src=dm&amp;elqTrackId=3ac7408d76c34a3b92905d2b5747b8b5" style="color:#0000F0" target="_blank">
+                Consent to receive email for Canadian email subscribers
+              </a>
+              <div class="item-padding">
+                <i>
+                 By providing my number, I consent to receive calls/texts from Cigna and its affiliates at the number provided that may deliver autodialed or prerecorded telemarketing messages.  My consent is not required to purchase products or services.
+               </i>
+              </div>
+            </div>
+
+            <input id="field10" name="source" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Source1' />" class="field-size-top-large">
+            <input id="field11" name="medium" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Medium1' />" class="field-size-top-large">
+            <input id="field12" name="campaign" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Campaign1' />" class="field-size-top-large">
+            <input id="field13" name="content" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Content1' />" class="field-size-top-large">
+            <input id="field14" name="term" type="hidden" value="<eloqua type='emailfield' syntax='Query_String_UTM_Term1' />" class="field-size-top-large">
+            <div class="row col-12 nopadding basic-input" style="padding-bottom:0.5rem !important">
+              <button style="border-radius: 0;" class="col-12 btn btn-primary class-dark-blue">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+        <div class="row mainWidth" style="padding-bottom:0">
+
+          <div class="col-12 nopadding">
+            <p>
+              Your employees are your most valuable asset. Attracting and retaining quality globally mobile talent is a balancing act, involving choices which support deriving the best value for your company and the individual needs of your employee. Cigna Global Health
+              Benefits can help you accomplish both. </p>
+          </div>
+          <p>
+            With more than 50 years of experience providing benefit solutions for global employers; Cigna’s expertise, resources and compliant solutions will help keep your employees well as they work around the world.
+          </p>
+        </div>
+        <div class="mainWidth row" style="padding-top: 0;padding-bottom: 2rem;">
+          <h4 class="class-orange nopadding col-12">
+          Want answers on the following?
+          </h4>
+          <div class="caption col-12">
+            <p>
+              <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/%7B66538e21-0540-4d44-b756-2037187232b2%7D_orange-bullet.png"> How to review your existing Global Benefits plan
+            </p>
+            <p>
+              <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/%7B66538e21-0540-4d44-b756-2037187232b2%7D_orange-bullet.png"> How to keep your employees safe while travelling globally for business
+            </p>
+            <p>
+              <img src="http://img04.en25.com/EloquaImages/clients/CignaGHB/%7B66538e21-0540-4d44-b756-2037187232b2%7D_orange-bullet.png"> How your peers are using their global benefits
+            </p>
+          </div>
+          <a href="#mcallback">Get in touch and let’s discuss how Cigna can help.</a>
+        </div>
+      </div>
+      <div class="col-12">
+      </div>
+
+
+      <div class="col-12  mainWidth" style="background-color: #f2f2f2; padding-top: 2rem !important;padding-bottom: 2rem !important;">
+        <div class="row nopadding">
+          <div class="col-sm-12 col-md-5 nopadding" style="width:100%">
+            <ul id="links" class="nav list-style-none list-no-indent bottom-footer-nav">
+              <li class="nav-item bottom-footer-nav-item"> <a target="_blank" class="footer-text bottom-footer-nav-link" href="https://www.cigna-me.com/en/privacy?elqTrackId=ea85d81e168b43a5bb7e29dfcc4eddb4" target="_self">Privacy</a></li>
+              <li class="nav-item bottom-footer-nav-item">|</li>
+              <li class="nav-item bottom-footer-nav-item"> <a target="_blank" class="footer-text bottom-footer-nav-link" href="https://www.cigna-me.com/en/employers-brokers/overview?elqTrackId=7ac59b10a6f34bc99cf95012b9d643e3" target="_self">About Cigna</a> </li>
+              <li class="nav-item bottom-footer-nav-item">|</li>
+              <li class="nav-item bottom-footer-nav-item"> <a target="_blank" class="footer-text bottom-footer-nav-link" href="https://www.cigna.com/about-us/company-profile/cigna-companies?WT.z_nav=about-us;Header;Company%20Profile;Companies&amp;elqTrackId=5433509D71906AEE71991FEE09D2D3ED" target="_self">Companies</a> </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="col-12 nopadding" style="text-align:justify;padding-top: 2rem !important;">
+          In the U.S., Cigna Global Health Benefits® group medical and dental plans are insured or administered by Cigna Health and Life Insurance Company. In the U.S. and Canada, group life, accident and disability plans are insured or administered by Life Insurance
+          Company of North America. In Canada, group medical, dental, vision, and evacuation plans are insured or administered by Cigna Life Insurance Company of Canada. Employee Assistance Programs are administered by or through Cigna Behavioral Health,
+          Inc. or affiliates and contracted companies. In other jurisdictions, products and services are offered by or through Cigna Global Insurance Company Ltd. or affiliates and contracted companies. Products and services may not be available in all
+          jurisdictions and are expressly excluded where prohibited by applicable law. The information on this site is only a general description of benefits. All insurance policies and group benefit plans contain exclusions and limitations. Please consult
+          your licensed agent or contact Cigna for product availability, costs, and complete details of coverage.
+          <br><br> Statistics represent internal Cigna Global Health Benefits data as of 12/2017. Subject to change
+          <br> <br> © 2018 Cigna. All rights reserved.
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--[if lt IE 7]>
+<script src='http://img06.en25.com/i/IE7.js'></script><script type='text/javascript'>var elements = document.all;var len = elements.length;for(var i = 0; i<len; i+=1){IE7.Layout.fixRight(elements[i]);IE7.Layout.fixBottom(elements[i]);}</script>
+<![endif]-->
+</body>
+
+</html>

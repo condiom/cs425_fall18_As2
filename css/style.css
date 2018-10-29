@@ -1,6 +1,10 @@
 .imageContainer {
   width: 33%;
-  display: inline-block;
+  display: table-cell;
+}
+
+.imageContainer img {
+  width: 100%;
 }
 
 .testimony {
@@ -15,6 +19,13 @@
 .footer {
   text-align: center;
   margin-bottom: 46px;
+}
+
+.footer-about {
+  transform: translateX(-50%);
+  bottom: 0;
+  position: absolute;
+  left: 50%;
 }
 
 .top {
@@ -40,10 +51,6 @@
   text-align: center;
   height: 100px;
   position: relative;
-}
-
-.image {
-  width: 100%;
 }
 
 .vertical-center {
@@ -98,7 +105,6 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-
 .active {
   background-color: #4CAF50;
 }
@@ -113,6 +119,49 @@ body {
   z-index: 2;
 }
 
-.mainwidth{
+.mainwidth {
   margin: 0 10%;
+}
+
+.col-50 {
+  width: 50%;
+  margin: 0;
+}
+
+.aboutRow {
+  width: 100%;
+  display: inline-flex;
+  padding-top: 3%;
+}
+
+.bioImage {
+  width: 50%;
+}
+
+.bio {
+  width: 50%;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.bioImage img {
+  width: 100%;
+}
+
+.formInput{
+  padding-bottom: 10px;
+  width: 50%;
+  display: inline-flex;
+}
+form{
+  display: table;
+}
+.input input{
+  width: 70%;
+}
+.vision{
+  font-size: 20px;
+}
+.companyInfo{
+  font-size: 20px;
 }
