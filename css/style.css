@@ -1,6 +1,8 @@
+
+
 .imageContainer {
   width: 33%;
-  display: table-cell;
+  display: inline-block;
 }
 
 .imageContainer img {
@@ -21,13 +23,6 @@
   margin-bottom: 46px;
 }
 
-.footer-about {
-  transform: translateX(-50%);
-  bottom: 0;
-  position: absolute;
-  left: 50%;
-}
-
 .top {
   width: 100%;
   text-align: center;
@@ -42,15 +37,28 @@
   z-index: 2;
 }
 
+.submitBtn {
+  float: right;
+}
+
 .topbutton {
   width: 100%;
 }
 
+.contactForm {
+  padding: 0.5rem 1rem 1rem 1rem;
+  border: 1px solid black;
+  display: table;
+}
+
 .banner {
-  background-color: rgb(83, 199, 20);
+  background-image: url("../img/banner.jpg");
+  background-color: rgb(224, 224, 224);
   text-align: center;
   height: 100px;
   position: relative;
+  color: white;
+  background-position: center;
 }
 
 .vertical-center {
@@ -144,24 +152,80 @@ body {
   font-size: 30px;
 }
 
-.bioImage img {
-  width: 100%;
-}
-
-.formInput{
+.formInput {
   padding-bottom: 10px;
   width: 50%;
   display: inline-flex;
 }
-form{
-  display: table;
+
+@media only screen and (max-width: 999px) {
+  .aboutRow {
+    display: block;
+  }
+  .bioImage {
+    width: 100%;
+  }
+  .bio {
+    width: 100%;
+    padding-left: 0;
+  }
+  .imageContainer {
+    width: 50%;
+  }
+  .formInput {
+    width: 100%;
+  }
 }
-.input input{
-  width: 70%;
+
+@media only screen and (min-width: 1000px) {
+  .footer-about {
+    transform: translateX(-50%);
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+  }
+  #biographyHeader {
+    margin-top: 0;
+  }
 }
-.vision{
+
+.gallery {
+  display: table-row;
+}
+
+.bioImage img {
+  width: 100%;
+}
+
+.formInput input, #date {
+  background-color: rgba(0, 0, 0, 0) !important;
+  margin-top: 0.5rem;
+  padding-left: 10px;
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.dateLabel {
+  margin-top: 1rem;
+}
+
+.vision {
   font-size: 20px;
 }
-.companyInfo{
+
+.companyInfo {
   font-size: 20px;
+}
+
+.quote {
+  color: rgb(84, 84, 84);
+  font-style: italic;
 }
