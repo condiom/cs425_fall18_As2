@@ -1,5 +1,3 @@
-
-
 .imageContainer {
   width: 33%;
   display: inline-block;
@@ -38,7 +36,10 @@
 }
 
 .submitBtn {
+  color: white;
   float: right;
+  background-color: #333333;
+  padding: 0.5rem;
 }
 
 .topbutton {
@@ -46,9 +47,11 @@
 }
 
 .contactForm {
-  padding: 0.5rem 1rem 1rem 1rem;
+  padding-bottom: 0.5rem;
   border: 1px solid black;
   display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner {
@@ -158,7 +161,7 @@ body {
   display: inline-flex;
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 699px) {
   .aboutRow {
     display: block;
   }
@@ -177,15 +180,12 @@ body {
   }
 }
 
-@media only screen and (min-width: 1000px) {
-  .footer-about {
-    transform: translateX(-50%);
-    bottom: 0;
-    position: absolute;
-    left: 50%;
-  }
+@media only screen and (min-width: 700px) {
   #biographyHeader {
     margin-top: 0;
+  }
+  .footer-break {
+    display: none;
   }
 }
 
@@ -200,7 +200,6 @@ body {
 .formInput input, #date {
   background-color: rgba(0, 0, 0, 0) !important;
   margin-top: 0.5rem;
-  padding-left: 10px;
   display: block;
   width: 100%;
   height: calc(2.25rem + 2px);
@@ -213,8 +212,14 @@ body {
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+.formContainer {
+  margin: 1rem;
+  display: table;
+}
+
 .dateLabel {
   margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .vision {
